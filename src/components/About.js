@@ -52,7 +52,7 @@ export default function About(props) {
               >
                 <h5 className="card-title">Browser Compatible</h5>
                 <p className="card-text fst-italic">
-                  Can be translated effectively via a any browser or operating
+                  Can be translated effectively via any browser or operating
                   system, such that it can be accessed by and is fully
                   functional
                 </p>
