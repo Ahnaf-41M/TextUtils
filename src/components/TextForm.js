@@ -31,7 +31,7 @@ export default function TextForm(props) {
   }
 
   function handleCountWords() {
-    var ar = text.split(" ");
+    var ar = text.split(/\s+/);
     var numOfWords = 0;
     for (var i = 0; i < ar.length; i++) {
       if (ar[i].length === 0) continue;
@@ -41,7 +41,7 @@ export default function TextForm(props) {
   }
 
   function handleCountChars() {
-    var ar = text.split(" ");
+    var ar = text.split(/\s+/); //spliting the text according to white spaces and new lines
     var numOfChars = 0;
     for (var i = 0; i < ar.length; i++) {
       numOfChars += ar[i].length;
